@@ -1,0 +1,92 @@
+main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockWho{
+    padding: 25px;
+}
+#spanWho{
+    color: rgb(116, 246, 116);
+    font-weight: 600;
+    font-size: 24px;
+}
+.blockArea{
+    display: flex;
+    width: 375px;
+    flex-wrap: wrap;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    background: aliceblue;
+    border-radius: 14px;
+    box-shadow: 9px 9px 30px 0px rgba(0, 0, 0, 0.295);
+}
+
+.blockItem{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    background: gray;
+    width: 95px;
+    border-radius: 10px;
+    height: 95px;
+    margin: 5px;
+    justify-content: center;
+}
+.blockItem:hover{
+    background: rgb(174, 174, 174);
+}
+
+.krest{
+    color: darkred;
+    font-size: 107px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    color: darkblue;
+    font-size: 49px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.winColor{
+    color: black;
+    background: lightgreen;
+}
+
+.blockWinner{
+    margin-top: 15px;
+    display: none;
+    flex-direction: column;
+}
+
+.textWin{
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+#spanWin{
+    font-size: 25px;
+    color: rgb(0, 21, 255);
+}
+.btnNewGame{
+    padding: 15px;
+    background: ;
+    border-radius: 15spx;
+    color: black;
+    font-weight: 20;
+    text-align: center;
+    cursor: pointer;
+}
+.btnNewGame:hover{
+    background: lightblue;
+}
